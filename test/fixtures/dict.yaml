@@ -1,0 +1,26 @@
+version: 1
+detectors:
+  email: true
+  phone: true
+  studentId: "[A-Z][0-9]{7}"
+entities:
+  - type: PERSON
+    name: 山田花子
+    id: person-hanako
+    aliases:
+      - 花子
+      - Hanako Yamada
+  - type: PERSON
+    name: 山田太郎
+    aliases:
+      - 太郎
+  - type: PERSON
+    name: Mira Chen
+    aliases:
+      - Mira
+  - type: ORG
+    name: 北星大学
+    aliases:
+      - 北星大
+  - type: PLACE
+    name: 青葉町

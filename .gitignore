@@ -1,0 +1,5 @@
+node_modules/
+anon
+anon.exe
+*.anon-tmp
+.DS_Store
